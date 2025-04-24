@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'dart:math';
 
+/*Solicita al usuario un número y eleva este número al cuadrado
+solo si es positivo.*/
 class Challenge1
     {
         void Run()
@@ -303,7 +305,7 @@ cuadrada, de lo contrario, devuelve su cuadrado.*/
                 resultado *= i;
             }
 
-            print("El factorial de {fac} es : $resultado");
+            print("El factorial de $fac es : $resultado");
 
             stdin.readLineSync(); ;
         }
